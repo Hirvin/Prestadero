@@ -1,0 +1,1 @@
+En este Directorio se almacenan las listas generadas del estatus de los usuarios.
