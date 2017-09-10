@@ -1,0 +1,1 @@
+En este directorio se lee el html para genera la lista de estatus de los usuarios.
