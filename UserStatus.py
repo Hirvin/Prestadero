@@ -27,13 +27,6 @@ _POR_PAGAR       = " Por Pagar"
 _COLUMNS         = [_USER, _MONTO, _PRINCIPAL, _INTERESES, _IMPUESTOS,_DIAS_PROX_PAGO,_TASA, _PLAZO, _POR_PAGAR, _ESTATUS, _SUB_ESTATUS]
 
 
-def remove_u(input_string):
-    words = input_string.split()
-    words_u = [(word.encode('unicode-escape')).decode("utf-8", "strict") for word in words]
-    words_u = [word_u.split('\\u')[1] if r'\u' in word_u else word_u for word_u in words_u]
-    return ' '.join(words_u)
-
-
 def userStatus():
 	if path.exists(_PATH):
 		datos     = open (_PATH, "r");

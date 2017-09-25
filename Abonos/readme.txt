@@ -1,0 +1,1 @@
+En este archivo se lee el historial de los moviemento realizado.
